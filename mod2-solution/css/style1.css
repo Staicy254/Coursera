@@ -1,0 +1,63 @@
+.section {
+    
+    border: 3px solid black;
+    margin: 10px;
+    background-color: grey;
+}
+h2 {
+    color: #212121;
+    border: 2px solid black;
+    width: 30%;
+    margin-top: -2px;
+    margin-left: 69.5%;
+    font-size: 20px;
+    text-align: center;
+   
+}
+p{
+    margin: 3px;
+    font-size: 15px;
+}
+@media screen and (min-width: 992px) {
+    .section {
+        width: 30%;
+        float: left;
+
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    #section1 {
+        display: inline-block;
+        width: 43.5%;
+    }
+    #section3 {
+    width :90%;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .section {
+        width: 90%;
+    }
+}
+#h1{
+ background-color: chocolate;
+}
+#h2{
+    background-color: rgb(255, 0, 0);
+}
+#h3{
+    background-color: rgb(251, 255, 5);
+}
+h1{
+    color: darkred;
+    text-align: center;
+    font-size: 50px;
+
+    
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
