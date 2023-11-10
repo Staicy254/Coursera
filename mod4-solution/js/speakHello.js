@@ -10,4 +10,3 @@
     })(window);
 
     helloSpeaker.speak();
-
